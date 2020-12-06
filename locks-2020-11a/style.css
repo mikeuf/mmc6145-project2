@@ -1,0 +1,57 @@
+/* Theme Name: John C. Locks
+ * Author: Mike Black
+ * Descriptions: Custom theme tailor-made for John C. Locks Antiques & Estates
+ * Version 1.0
+ * Text Domain: locks
+ */
+
+body {
+padding-bottom: 12rem;
+}
+
+#header-container {
+    padding-top: 0.5rem;
+    border-bottom: solid 1px #dedede;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.05);
+}
+
+#logo {
+	height: 3rem;
+}
+
+.jumbotron {
+	background-image: url('http://johnclocks.com/wp-content/uploads/2020/11/johnclocks-hero.jpg');
+}
+
+.jumbotron h1,
+.jumbotron p {
+color: #ffffff;
+}
+
+.jumbotron h1 {
+	font-weight: 700;
+    letter-spacing: -1px;
+}
+
+.lead {
+	font-size: 2rem;
+    font-weight: 400;
+}
+
+.post-snippets {
+margin-top: 3rem;
+display: flex;
+}
+
+.row-page,
+.row-single {
+margin-top: 3rem;
+}
+
+footer {
+	margin-top: 3rem;
+	padding-top: 1rem;
+	color: #ffffff;
+	background-color: #333333;
+}
+
